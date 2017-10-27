@@ -23,10 +23,10 @@ repos=(
     "https://github.com/edx/cs_comments_service.git"
     "https://github.com/edx/ecommerce.git"
     "https://github.com/edx/edx-e2e-tests.git"
-    "https://github.com/edx/edx-platform.git"
+    "https://github.com/Microsoft/edx-platform.git"
 )
 
-name_pattern=".*edx/(.*).git"
+name_pattern=".*(edx|Microsoft)/(.*).git"
 
 clone ()
 {
